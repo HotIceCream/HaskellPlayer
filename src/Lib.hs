@@ -22,7 +22,7 @@ otherFunc = do
 
     -- Retrieve some objects from the UI
     window <- builderGetObject builder castToWindow "window1"
-    button <- builderGetObject builder castToButton "button1"
+    button <- builderGetObject builder castToButton "button_play"
 
     -- Basic user interation
     on button buttonActivated (putStrLn "button pressed!")
